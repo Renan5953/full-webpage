@@ -1,8 +1,8 @@
 body {
     font-family: 'Roboto', 'Helvetica', Arial, sans-serif;
-    margin: 0;
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 .header,
@@ -14,7 +14,7 @@ body {
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 16px 13em;
+    padding: 16px 13rem;
 }
 
 .logo {
@@ -39,36 +39,24 @@ a {
 }
 
 .section.one {
-    padding: 7em 13em;
+    padding: 7rem 13rem;
 }
 
 .presentation {
     display: flex;
     align-items: center;
-    gap: 52px;
+    gap: 48px;
 }
 
 .left-side,
 .right-side {
     display: flex;
     flex-direction: column;
-    gap: 16px;
     flex: 1;
-}
-
-.main-text {
-    color: #f9faf8;
-    font-size: 48px;
-    font-weight: 900;
-}
-
-.secondary-text {
-    color: #e5e7eb;
-    font-size: 18px;
+    gap: 16px;
 }
 
 .right-side {
-    display: flex;
     justify-content: center;
     align-items: center;
     align-self: stretch;
@@ -76,16 +64,71 @@ a {
     background-color: #6d747d;
 }
 
+.main-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
 .sign-up {
     width: fit-content;
-    padding: 6px 32px;
-    border-radius: 8px;
+    padding: 8px 32px;
+    border-radius: 9px;
+    font-size: 16px;
+    font-weight: 700;
     color: #ffffff;
     background-color: #3882f6;
-    font-size: 18px;
-    font-weight: 700;
 }
 
 .sign-up.first {
     border: 2px solid #3882f6;
+}
+
+.section.two {
+    padding: 3rem 13rem 7rem;
+}
+
+.information {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+
+.info-header {
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    color: #1f2937;
+}
+
+.info-cards {
+    display: flex;
+    justify-content: center;
+    gap: 48px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+}
+
+.img-placeholder {
+    width: 160px;
+    height: 160px;
+    border: 4px solid #3882f6;
+    border-radius: 16px;
+}
+
+.subtext {
+    width: 160px;
+    font-size: 18px;
+    text-align: center;
+    color: #4b5563;
 }
