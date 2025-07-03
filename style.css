@@ -160,3 +160,48 @@ a {
     text-align: end;
     color: #1f2937;
 }
+
+/* Fourth section */
+
+.section.four {
+    padding: 6rem 13rem;
+}
+
+.action {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3rem 7rem;
+    border-radius: 8px;
+    background-color: #3882f6;
+}
+
+.action-text {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.cta-main {
+    font-size: 24px;
+    font-weight: 700;
+    color: #f9faf8;
+}
+
+.cta-subtext {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.sign-up.second {
+    border: 2px solid #ffffff;
+}
+
+/* Footer */
+
+.footer {
+    padding: 2.5rem 0;
+    font-size: 18px;
+    text-align: center;
+    color: #f9faf8;
+}
