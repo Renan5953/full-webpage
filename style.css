@@ -87,10 +87,18 @@ a {
     font-weight: 700;
     color: #ffffff;
     background-color: #3882f6;
+    cursor: pointer;
 }
 
 .sign-up.first {
     border: 2px solid #3882f6;
+}
+
+.sign-up.first:hover {
+    color: #3882f6;
+    background-color: #ffffff;
+    border: 2px solid #ffffff;
+    transition: all 0.3s ease;
 }
 
 /* Second section */
@@ -195,6 +203,12 @@ a {
 
 .sign-up.second {
     border: 2px solid #ffffff;
+}
+
+.sign-up.second:hover {
+    color: #3882f6;
+    background-color: #ffffff;
+    transition: all 0.3s ease;
 }
 
 /* Footer */
