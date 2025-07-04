@@ -143,7 +143,7 @@ a {
 
 .subtext {
     width: 160px;
-    font-size: 18px;
+    font-size: 17px;
     text-align: center;
     color: #4b5563;
 }
@@ -218,4 +218,34 @@ a {
     font-size: 18px;
     text-align: center;
     color: #f9faf8;
+}
+
+/* Fonts */
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('./fonts/Roboto-Regular.woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('./fonts/Roboto-Bold.woff');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('./fonts/Roboto-LightItalic.woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    src: url('./fonts/Roboto-Black.woff');
+    font-weight: 900;
+    font-style: normal;
 }
