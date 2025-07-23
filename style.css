@@ -16,7 +16,7 @@ footer {
 header {
     display: flex;
     justify-content: space-between;
-    padding: 16px 13rem;
+    padding: 1rem 13rem;
 }
 
 .logo {
@@ -36,12 +36,16 @@ nav {
     margin: 0;
     padding: 0;
     font-size: 18px;
-    gap: 24px;
+    gap: 1.5rem;
 }
 
-a {
+.nav-link {
     color: #e5e7eb;
     text-decoration: none;
+}
+
+.nav-link:hover {
+    text-decoration: underline;
 }
 
 /* First section */
@@ -53,15 +57,13 @@ a {
 .presentation {
     display: flex;
     align-items: center;
-    gap: 48px;
+    gap: 3rem;
 }
 
-.left-side,
-.right-side {
+.left-side {
     display: flex;
-    flex: 1;
     flex-direction: column;
-    gap: 16px;
+    gap: 1.5rem;
 }
 
 h1 {
@@ -82,7 +84,7 @@ h1 {
 
 .sign-up {
     width: fit-content;
-    padding: 8px 32px;
+    padding: 0.5rem 2rem;
     border-radius: 9px;
     font-size: 16px;
     font-weight: 700;
@@ -95,11 +97,11 @@ h1 {
     transition: all 0.3s ease;
 }
 
-.sign-up.first {
+.su-first {
     border: 2px solid #3882f6;
 }
 
-.sign-up.first:hover {
+.su-first:hover {
     color: #3882f6;
     background-color: #ffffff;
     border: 2px solid #ffffff;
@@ -114,7 +116,7 @@ h1 {
 .information {
     display: flex;
     flex-direction: column;
-    gap: 48px;
+    gap: 3rem;
 }
 
 h2 {
@@ -129,14 +131,14 @@ h2 {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 48px;
+    gap: 3rem;
 }
 
 .card {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 8px;
+    gap: 0.5rem;
 }
 
 .img-container {
@@ -164,11 +166,12 @@ h2 {
 .section-three {
     display: flex;
     flex-direction: column;
-    padding: 8rem 18rem 7rem;
+    padding: 8rem 18rem;
     background-color: #e5e7eb;
 }
 
-q {
+blockquote {
+    margin: 0;
     font: italic 300 36px 'Roboto', 'Helvetica', Arial, sans-serif;
     color: #1f2937;
 }
@@ -199,7 +202,7 @@ q {
 .action-text {
     display: flex;
     flex-direction: column;
-    gap: 8px;
+    gap: 0.5rem;
 }
 
 .cta-main {
@@ -214,12 +217,12 @@ q {
     color: #e5e7eb;
 }
 
-.sign-up.second {
+.su-second {
     border: 2px solid #ffffff;
     text-wrap: nowrap;
 }
 
-.sign-up.second:hover {
+.su-second:hover {
     color: #3882f6;
     background-color: #ffffff;
 }
@@ -227,7 +230,7 @@ q {
 /* Footer */
 
 footer {
-    padding: 2.5rem 0;
+    padding: 2.5rem;
     font-size: 18px;
     text-align: center;
     color: #f9faf8;
